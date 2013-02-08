@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+body {
+	background: rgb(230,246,246); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(230,246,246,1) 0%, rgba(157,218,224,1) 28%, rgba(255,255,255,1) 69%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(230,246,246,1)), color-stop(28%, rgba(157,218,224,1)), color-stop(69%, rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(230,246,246,1) 0%, rgba(157,218,224,1) 28%, rgba(255,255,255,1) 69%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(230,246,246,1) 0%, rgba(157,218,224,1) 28%, rgba(255,255,255,1) 69%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(230,246,246,1) 0%, rgba(157,218,224,1) 28%, rgba(255,255,255,1) 69%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(230,246,246,1) 0%, rgba(157,218,224,1) 28%, rgba(255,255,255,1) 69%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6f6f6', endColorstr='#ffffff', GradientType=0 ); /* IE6-9 */
+	background-repeat: no-repeat;
+	background-size: 100% 230px;
+	
+	min-width:1000px;
+	
+}
+h1 {
+	text-align: right;
+	padding: 10px;
+	text-shadow: #FFF 1px 1px 2px;
+	margin-top: 15px;
+	color: #666;
+}
+h2 {
+	text-shadow: #FFF 1px 1px 2px;
+	color:#09C;
+}
+.flutuaEsquerda {
+	float: left;
+}
+
+.centralizar {
+	text-align:center;
+}
+#informacoesGerais {
+	text-align: right;
+	padding: 10px;
+}
+#logo {
+	margin-left: 25px;
+	float: left;
+}
+#login {
+	background-color: #ECF2DB;
+	margin-top: 80px;
+	box-shadow: #ccc 1px 1px 2px;
+	text-align: center;
+}
+#usuario, #formLogin input[type=password] {
+	height: 35px;
+	width: 250px;
+	font-size: 18px;
+	color: #069;
+	padding-left: 32px;
+	border: solid 1.5px #3399FF;
+}
+#usuario {
+	background-image: url(../imagens/usuario1.png);
+	background-repeat: no-repeat;
+	background-position: 4px 7px;
+}
+#senha {
+	background-image: url(../imagens/senha1.png);
+	background-repeat: no-repeat;
+	background-position: 4px 7px;
+}
+#usuario:focus {
+	background-image: url(../imagens/usuario2.png);
+	box-shadow:#0CF 0px 0px 5px;
+}
+#senha:focus {
+	background-image: url(../imagens/senha2.png);
+	box-shadow:#0CF 0px 0px 5px;
+}
+
+.okButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+	background-color:#79bbff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #528ecc;
+}.okButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+	background-color:#378de5;
+}.okButton:active {
+	position:relative;
+	top:1px;
+}
+
+#chamados {
+	margin:0 auto; 
+	width:90%;
+	border:none;
+	
+}
+
+#chamados th {
+	background-color: #ECF2DB;
+}
+#chamados td {
+	font-size: 12px;
+}
+
+#chamados tr td, #chamados th {
+	border:none;
+	padding:5px;
+	text-align:center;
+}
+#chamados tr:nth-of-type(odd) {
+	background-color:#FFFDD7;
+}
+
+#chamados tr:hover {
+	background-color:#E6E6FF;
+}
+
+#localizacao {
+	background-color:#F4F4F4;
+}
